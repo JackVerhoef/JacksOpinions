@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/JacksOpinions/static/css/main.e6c13ad2.css",
-    "main.js": "/JacksOpinions/static/js/main.4666e21d.js",
+    "main.css": "/JacksOpinions/static/css/main.6f632abf.css",
+    "main.js": "/JacksOpinions/static/js/main.0a30e473.js",
     "static/js/453.8d7c5db2.chunk.js": "/JacksOpinions/static/js/453.8d7c5db2.chunk.js",
     "index.html": "/JacksOpinions/index.html",
-    "main.e6c13ad2.css.map": "/JacksOpinions/static/css/main.e6c13ad2.css.map",
-    "main.4666e21d.js.map": "/JacksOpinions/static/js/main.4666e21d.js.map",
+    "main.6f632abf.css.map": "/JacksOpinions/static/css/main.6f632abf.css.map",
+    "main.0a30e473.js.map": "/JacksOpinions/static/js/main.0a30e473.js.map",
     "453.8d7c5db2.chunk.js.map": "/JacksOpinions/static/js/453.8d7c5db2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.4666e21d.js"
+    "static/css/main.6f632abf.css",
+    "static/js/main.0a30e473.js"
   ]
 }
