@@ -1,0 +1,70 @@
+.review-card {
+	position: relative;
+	background-color: #290076;
+	border: 1px solid #000000;
+	padding: 1.2rem;
+	margin: auto auto;
+	border-radius: 10px;
+	max-width: 500px;
+	box-shadow: 0 4px 100px rgba(0, 0, 0, 0.08);
+	font-family: sans-serif;
+	margin-bottom: 0.5rem
+}
+
+	.review-card h2 {
+		/*Name*/
+		margin-top: 0;
+		margin-bottom: 0;
+		font-size: 1.5rem;
+		padding-right: 4.5rem; /* matches or exceeds rating width */
+		word-break: break-word; /* ensures long names wrap */
+		/*color: #333;*/
+	}
+
+	.review-card h3 {
+		/*Brand*/
+		margin-top: 0;
+		margin-bottom: 0.2rem;
+		font-size: 1.3rem;
+		/*color: #333;*/
+	}
+
+	.review-card p {
+		/*Everything else*/
+		margin: 0;
+		line-height: 1.4;
+	}
+
+	.review-rating {
+		/*Large rating in top right corner*/
+		position: absolute;
+		top: 1rem;
+		right: 1.2rem;
+		font-size: 3.5rem;
+		font-weight: bold;
+		color: #DA9CFC;
+		text-shadow: 1px 1px 10px #1E003E;
+	}
+
+	.review-scores {
+		display:grid;
+		grid-template-columns: repeat(4, 1fr) ;
+		grid-template-rows: auto auto;
+		text-align: center;
+		width: 90%;
+		margin:0 auto; /*centers the grid*/
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+
+.score {
+	font-size: 2.5rem;
+	font-weight: bold;
+	/*color: #222;*/
+}
+
+.label {
+	font-size: 1rem;
+	/*color: #666;
+	*/
+}

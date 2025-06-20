@@ -1,0 +1,41 @@
+/* OptionsPanel.css */
+/* Styling for the filter and sort options panel */
+
+.filter-box {
+    background-color: #1e003e;  /* Deep purple background for dark theme */
+    padding: 1rem;              /* Inner spacing */
+    border-radius: 10px;        /* Rounded corners */
+    margin: 1rem auto;          /* Space above/below, center horizontally */
+    max-width: 500px;           /* Keep it readable on large screens */
+    display: flex;              /* Layout children vertically */
+    flex-direction: column;
+    gap: 0.5rem;                /* Space between labels */
+    color: white;               /* Text color */
+}
+
+    .filter-box label {
+        display: flex;
+        flex-direction: row;    /* Stack label text and input */
+        align-items: center;    /* vertically center them*/
+        gap: 0.5rem;            /*Space between label and drop down */
+        font-size: 0.9rem;      /* Smaller label font */
+    }
+
+    /* Target all dropdowns inside the filter box */
+    .filter-box select {
+        background-color: #2c0050;  /* dark purple background */
+        color: #dcd6f7;             /* light text */
+        border: 1px solid #6a2dff;  /* purple border */
+        border-radius: 5px;         /* rounded corners */
+        padding: 0.3rem 0.5rem;     /* space inside dropdown */
+        font-weight: 600;
+        cursor: pointer;
+        transition: border-color 0.3s ease;
+    }
+
+        /* On hover and focus (when user clicks or tabs into dropdown) */
+        .filter-box select:hover,
+        .filter-box select:focus {
+            border-color: #bb86fc;  /* lighter purple border */
+            outline: none;          /* remove default focus outline */
+        }

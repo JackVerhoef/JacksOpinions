@@ -1,0 +1,15 @@
+
+.toggle-button {
+    background-color: #4b0082; /* Dark purple background */
+    color: #f0e6ff; /* Light text color */
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+    .toggle-button:hover {
+        background-color: #6a2dff; /* Bright purple on hover */
+    }
